@@ -1,0 +1,349 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19044 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/LLVM/bin/clang.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is Clang, found in:
+        D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/3.26.0-rc2/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1153 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1153 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/LLVM/bin/clang++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is Clang, found in:
+        D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/3.26.0-rc2/CompilerIdCXX/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1153 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1153 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-2j4xe5"
+      binary: "D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-2j4xe5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-2j4xe5
+        
+        Run Build Command(s):C:/Program Files/CMake/bin/cmake.exe -E env VERBOSE=1 C:/MinGW/bin/make.exe -f Makefile cmTC_44e43/fast && C:/MinGW/bin/make.exe  -f CMakeFiles/cmTC_44e43.dir/build.make CMakeFiles/cmTC_44e43.dir/build
+        make[1]: Entering directory 'D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-2j4xe5'
+        Building C object CMakeFiles/cmTC_44e43.dir/CMakeCCompilerABI.c.obj
+        C:/LLVM/bin/clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_44e43.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles/cmTC_44e43.dir/CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_44e43.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCCompilerABI.c"
+        Linking C executable cmTC_44e43.exe
+        C:/LLVM/bin/clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_44e43.dir/objects1.rsp -o cmTC_44e43.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_44e43.lib -Xlinker /pdb:"D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-2j4xe5/cmTC_44e43.pdb" -Xlinker /version:0.0  
+        make[1]: Leaving directory 'D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-2j4xe5'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-61yyfb"
+      binary: "D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-61yyfb"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-61yyfb
+        
+        Run Build Command(s):C:/Program Files/CMake/bin/cmake.exe -E env VERBOSE=1 C:/MinGW/bin/make.exe -f Makefile cmTC_6d127/fast && C:/MinGW/bin/make.exe  -f CMakeFiles/cmTC_6d127.dir/build.make CMakeFiles/cmTC_6d127.dir/build
+        make[1]: Entering directory 'D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-61yyfb'
+        Building CXX object CMakeFiles/cmTC_6d127.dir/CMakeCXXCompilerABI.cpp.obj
+        C:/LLVM/bin/clang++.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_6d127.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles/cmTC_6d127.dir/CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_6d127.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp"
+        Linking CXX executable cmTC_6d127.exe
+        C:/LLVM/bin/clang++.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_6d127.dir/objects1.rsp -o cmTC_6d127.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_6d127.lib -Xlinker /pdb:"D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-61yyfb/cmTC_6d127.pdb" -Xlinker /version:0.0  
+        make[1]: Leaving directory 'D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-61yyfb'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake:83 (_record_compiler_features)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake:121 (_record_compiler_features_cxx)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-tn5ywp"
+      binary: "D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-tn5ywp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-tn5ywp
+        
+        Run Build Command(s):C:/Program Files/CMake/bin/cmake.exe -E env VERBOSE=1 C:/MinGW/bin/make.exe -f Makefile cmTC_c7d16/fast && C:/MinGW/bin/make.exe  -f CMakeFiles/cmTC_c7d16.dir/build.make CMakeFiles/cmTC_c7d16.dir/build
+        make[1]: Entering directory 'D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-tn5ywp'
+        Building CXX object CMakeFiles/cmTC_c7d16.dir/feature_tests.cxx.obj
+        C:/LLVM/bin/clang++.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_c7d16.dir/feature_tests.cxx.obj -MF CMakeFiles/cmTC_c7d16.dir/feature_tests.cxx.obj.d -o CMakeFiles/cmTC_c7d16.dir/feature_tests.cxx.obj -c "D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-tn5ywp/feature_tests.cxx"
+        Linking CXX executable cmTC_c7d16.exe
+        C:/LLVM/bin/clang++.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_c7d16.dir/objects1.rsp -o cmTC_c7d16.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_c7d16.lib -Xlinker /pdb:"D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-tn5ywp/cmTC_c7d16.pdb" -Xlinker /version:0.0  @CMakeFiles/cmTC_c7d16.dir/linkLibs.rsp 
+        make[1]: Leaving directory 'D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-tn5ywp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake:83 (_record_compiler_features)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake:129 (_record_compiler_features_cxx)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-py5yan"
+      binary: "D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-py5yan"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-py5yan
+        
+        Run Build Command(s):C:/Program Files/CMake/bin/cmake.exe -E env VERBOSE=1 C:/MinGW/bin/make.exe -f Makefile cmTC_6851b/fast && C:/MinGW/bin/make.exe  -f CMakeFiles/cmTC_6851b.dir/build.make CMakeFiles/cmTC_6851b.dir/build
+        make[1]: Entering directory 'D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-py5yan'
+        Building CXX object CMakeFiles/cmTC_6851b.dir/feature_tests.cxx.obj
+        C:/LLVM/bin/clang++.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_6851b.dir/feature_tests.cxx.obj -MF CMakeFiles/cmTC_6851b.dir/feature_tests.cxx.obj.d -o CMakeFiles/cmTC_6851b.dir/feature_tests.cxx.obj -c "D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-py5yan/feature_tests.cxx"
+        Linking CXX executable cmTC_6851b.exe
+        C:/LLVM/bin/clang++.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_6851b.dir/objects1.rsp -o cmTC_6851b.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_6851b.lib -Xlinker /pdb:"D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-py5yan/cmTC_6851b.pdb" -Xlinker /version:0.0  @CMakeFiles/cmTC_6851b.dir/linkLibs.rsp 
+        make[1]: Leaving directory 'D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-py5yan'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "vendor/glfw/CMakeLists.txt:58 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-c1gz11"
+      binary: "D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-c1gz11"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Github/Graphics-Labs/Lab 1/vendor/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-c1gz11
+        
+        Run Build Command(s):C:/Program Files/CMake/bin/cmake.exe -E env VERBOSE=1 C:/MinGW/bin/make.exe -f Makefile cmTC_0d588/fast && C:/MinGW/bin/make.exe  -f CMakeFiles/cmTC_0d588.dir/build.make CMakeFiles/cmTC_0d588.dir/build
+        make[1]: Entering directory 'D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-c1gz11'
+        Building C object CMakeFiles/cmTC_0d588.dir/src.c.obj
+        C:/LLVM/bin/clang.exe -DCMAKE_HAVE_LIBC_PTHREAD  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_0d588.dir/src.c.obj -MF CMakeFiles/cmTC_0d588.dir/src.c.obj.d -o CMakeFiles/cmTC_0d588.dir/src.c.obj -c "D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-c1gz11/src.c"
+        D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-c1gz11/src.c:1:10: fatal error: 'pthread.h' file not found
+        #include <pthread.h>
+                 ^~~~~~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_0d588.dir/build.make:79: CMakeFiles/cmTC_0d588.dir/src.c.obj] Error 1
+        make[1]: Leaving directory 'D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-c1gz11'
+        make: *** [Makefile:127: cmTC_0d588/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "vendor/glfw/CMakeLists.txt:58 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-5a86oy"
+      binary: "D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-5a86oy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Github/Graphics-Labs/Lab 1/vendor/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-5a86oy
+        
+        Run Build Command(s):C:/Program Files/CMake/bin/cmake.exe -E env VERBOSE=1 C:/MinGW/bin/make.exe -f Makefile cmTC_b5a6b/fast && C:/MinGW/bin/make.exe  -f CMakeFiles/cmTC_b5a6b.dir/build.make CMakeFiles/cmTC_b5a6b.dir/build
+        make[1]: Entering directory 'D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-5a86oy'
+        Building C object CMakeFiles/cmTC_b5a6b.dir/CheckFunctionExists.c.obj
+        C:/LLVM/bin/clang.exe   -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_b5a6b.dir/CheckFunctionExists.c.obj -MF CMakeFiles/cmTC_b5a6b.dir/CheckFunctionExists.c.obj.d -o CMakeFiles/cmTC_b5a6b.dir/CheckFunctionExists.c.obj -c "D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-5a86oy/CheckFunctionExists.c"
+        Linking C executable cmTC_b5a6b.exe
+        C:/LLVM/bin/clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib  -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_b5a6b.dir/objects1.rsp -o cmTC_b5a6b.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_b5a6b.lib -Xlinker /pdb:"D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-5a86oy/cmTC_b5a6b.pdb" -Xlinker /version:0.0  @CMakeFiles/cmTC_b5a6b.dir/linkLibs.rsp 
+        lld-link: error: could not open 'pthreads.lib': no such file or directory
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        make[1]: *** [CMakeFiles/cmTC_b5a6b.dir/build.make:101: cmTC_b5a6b.exe] Error 1
+        make[1]: Leaving directory 'D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-5a86oy'
+        make: *** [Makefile:127: cmTC_b5a6b/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "vendor/glfw/CMakeLists.txt:58 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-6d5mtg"
+      binary: "D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-6d5mtg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Github/Graphics-Labs/Lab 1/vendor/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-6d5mtg
+        
+        Run Build Command(s):C:/Program Files/CMake/bin/cmake.exe -E env VERBOSE=1 C:/MinGW/bin/make.exe -f Makefile cmTC_6d4eb/fast && C:/MinGW/bin/make.exe  -f CMakeFiles/cmTC_6d4eb.dir/build.make CMakeFiles/cmTC_6d4eb.dir/build
+        make[1]: Entering directory 'D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-6d5mtg'
+        Building C object CMakeFiles/cmTC_6d4eb.dir/CheckFunctionExists.c.obj
+        C:/LLVM/bin/clang.exe   -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_6d4eb.dir/CheckFunctionExists.c.obj -MF CMakeFiles/cmTC_6d4eb.dir/CheckFunctionExists.c.obj.d -o CMakeFiles/cmTC_6d4eb.dir/CheckFunctionExists.c.obj -c "D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-6d5mtg/CheckFunctionExists.c"
+        Linking C executable cmTC_6d4eb.exe
+        C:/LLVM/bin/clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib  -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_6d4eb.dir/objects1.rsp -o cmTC_6d4eb.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_6d4eb.lib -Xlinker /pdb:"D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-6d5mtg/cmTC_6d4eb.pdb" -Xlinker /version:0.0  @CMakeFiles/cmTC_6d4eb.dir/linkLibs.rsp 
+        lld-link: error: could not open 'pthread.lib': no such file or directory
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        make[1]: *** [CMakeFiles/cmTC_6d4eb.dir/build.make:101: cmTC_6d4eb.exe] Error 1
+        make[1]: Leaving directory 'D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-6d5mtg'
+        make: *** [Makefile:127: cmTC_6d4eb/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:136 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:179 (_threads_check_flag_pthread)"
+      - "vendor/glfw/CMakeLists.txt:58 (find_package)"
+    checks:
+      - "Check if compiler accepts -pthread"
+    directories:
+      source: "D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-do9vqv"
+      binary: "D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-do9vqv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/Github/Graphics-Labs/Lab 1/vendor/glfw/CMake/modules"
+    buildResult:
+      variable: "THREADS_HAVE_PTHREAD_ARG"
+      cached: true
+      stdout: |
+        Change Dir: D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-do9vqv
+        
+        Run Build Command(s):C:/Program Files/CMake/bin/cmake.exe -E env VERBOSE=1 C:/MinGW/bin/make.exe -f Makefile cmTC_6aed8/fast && C:/MinGW/bin/make.exe  -f CMakeFiles/cmTC_6aed8.dir/build.make CMakeFiles/cmTC_6aed8.dir/build
+        make[1]: Entering directory 'D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-do9vqv'
+        Building C object CMakeFiles/cmTC_6aed8.dir/CheckForPthreads.c.obj
+        C:/LLVM/bin/clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_6aed8.dir/CheckForPthreads.c.obj -MF CMakeFiles/cmTC_6aed8.dir/CheckForPthreads.c.obj.d -o CMakeFiles/cmTC_6aed8.dir/CheckForPthreads.c.obj -c "D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-do9vqv/CheckForPthreads.c"
+        D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-do9vqv/CheckForPthreads.c:1:10: fatal error: 'pthread.h' file not found
+        #include <pthread.h>
+                 ^~~~~~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_6aed8.dir/build.make:79: CMakeFiles/cmTC_6aed8.dir/CheckForPthreads.c.obj] Error 1
+        make[1]: Leaving directory 'D:/Github/Graphics-Labs/Lab 1/build/CMakeFiles/CMakeScratch/TryCompile-do9vqv'
+        make: *** [Makefile:127: cmTC_6aed8/fast] Error 2
+        
+      exitCode: 2
+...
