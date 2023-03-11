@@ -3,10 +3,9 @@
 
 vendor/glfw/src/CMakeFiles/glfw.dir/context.c.obj
  D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/context.c
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/context.c
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/internal.h
- D:/Github/Graphics-Labs/Lab 1/build/vendor/glfw/src/glfw_config.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/include/GLFW/glfw3.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/internal.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/build/vendor/glfw/src/glfw_config.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/include/GLFW/glfw3.h
  C:/LLVM/lib/clang/15.0.7/include/stddef.h
  C:/LLVM/lib/clang/15.0.7/include/stdint.h
  C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.30.30705/include/stdint.h
@@ -15,7 +14,7 @@ vendor/glfw/src/CMakeFiles/glfw.dir/context.c.obj
  C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.30.30705/include/concurrencysal.h
  C:/LLVM/lib/clang/15.0.7/include/vadefs.h
  C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.30.30705/include/vadefs.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/win32_platform.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/win32_platform.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/wctype.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/corecrt.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/corecrt_wctype.h
@@ -143,10 +142,10 @@ vendor/glfw/src/CMakeFiles/glfw.dir/context.c.obj
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/PropIdl.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/Xinput.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/Dbt.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/win32_joystick.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/wgl_context.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/egl_context.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/osmesa_context.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/win32_joystick.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/wgl_context.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/egl_context.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/osmesa_context.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/assert.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/stdio.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/corecrt_wstdio.h
@@ -154,10 +153,9 @@ vendor/glfw/src/CMakeFiles/glfw.dir/context.c.obj
 
 vendor/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj
  D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/egl_context.c
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/egl_context.c
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/internal.h
- D:/Github/Graphics-Labs/Lab 1/build/vendor/glfw/src/glfw_config.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/include/GLFW/glfw3.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/internal.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/build/vendor/glfw/src/glfw_config.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/include/GLFW/glfw3.h
  C:/LLVM/lib/clang/15.0.7/include/stddef.h
  C:/LLVM/lib/clang/15.0.7/include/stdint.h
  C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.30.30705/include/stdint.h
@@ -166,7 +164,7 @@ vendor/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj
  C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.30.30705/include/concurrencysal.h
  C:/LLVM/lib/clang/15.0.7/include/vadefs.h
  C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.30.30705/include/vadefs.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/win32_platform.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/win32_platform.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/wctype.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/corecrt.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/corecrt_wctype.h
@@ -294,10 +292,10 @@ vendor/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/PropIdl.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/Xinput.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/Dbt.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/win32_joystick.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/wgl_context.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/egl_context.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/osmesa_context.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/win32_joystick.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/wgl_context.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/egl_context.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/osmesa_context.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/stdio.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/corecrt_wstdio.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/corecrt_stdio_config.h
@@ -305,10 +303,9 @@ vendor/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj
 
 vendor/glfw/src/CMakeFiles/glfw.dir/init.c.obj
  D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/init.c
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/init.c
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/internal.h
- D:/Github/Graphics-Labs/Lab 1/build/vendor/glfw/src/glfw_config.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/include/GLFW/glfw3.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/internal.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/build/vendor/glfw/src/glfw_config.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/include/GLFW/glfw3.h
  C:/LLVM/lib/clang/15.0.7/include/stddef.h
  C:/LLVM/lib/clang/15.0.7/include/stdint.h
  C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.30.30705/include/stdint.h
@@ -317,7 +314,7 @@ vendor/glfw/src/CMakeFiles/glfw.dir/init.c.obj
  C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.30.30705/include/concurrencysal.h
  C:/LLVM/lib/clang/15.0.7/include/vadefs.h
  C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.30.30705/include/vadefs.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/win32_platform.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/win32_platform.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/wctype.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/corecrt.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/corecrt_wctype.h
@@ -445,11 +442,11 @@ vendor/glfw/src/CMakeFiles/glfw.dir/init.c.obj
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/PropIdl.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/Xinput.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/Dbt.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/win32_joystick.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/wgl_context.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/egl_context.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/osmesa_context.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/mappings.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/win32_joystick.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/wgl_context.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/egl_context.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/osmesa_context.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/mappings.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/stdio.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/corecrt_wstdio.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/corecrt_stdio_config.h
@@ -457,10 +454,9 @@ vendor/glfw/src/CMakeFiles/glfw.dir/init.c.obj
 
 vendor/glfw/src/CMakeFiles/glfw.dir/input.c.obj
  D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/input.c
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/input.c
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/internal.h
- D:/Github/Graphics-Labs/Lab 1/build/vendor/glfw/src/glfw_config.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/include/GLFW/glfw3.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/internal.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/build/vendor/glfw/src/glfw_config.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/include/GLFW/glfw3.h
  C:/LLVM/lib/clang/15.0.7/include/stddef.h
  C:/LLVM/lib/clang/15.0.7/include/stdint.h
  C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.30.30705/include/stdint.h
@@ -469,7 +465,7 @@ vendor/glfw/src/CMakeFiles/glfw.dir/input.c.obj
  C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.30.30705/include/concurrencysal.h
  C:/LLVM/lib/clang/15.0.7/include/vadefs.h
  C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.30.30705/include/vadefs.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/win32_platform.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/win32_platform.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/wctype.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/corecrt.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/corecrt_wctype.h
@@ -597,10 +593,10 @@ vendor/glfw/src/CMakeFiles/glfw.dir/input.c.obj
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/PropIdl.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/Xinput.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/Dbt.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/win32_joystick.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/wgl_context.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/egl_context.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/osmesa_context.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/win32_joystick.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/wgl_context.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/egl_context.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/osmesa_context.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/assert.h
  C:/LLVM/lib/clang/15.0.7/include/float.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/float.h
@@ -609,10 +605,9 @@ vendor/glfw/src/CMakeFiles/glfw.dir/input.c.obj
 
 vendor/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj
  D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/monitor.c
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/monitor.c
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/internal.h
- D:/Github/Graphics-Labs/Lab 1/build/vendor/glfw/src/glfw_config.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/include/GLFW/glfw3.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/internal.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/build/vendor/glfw/src/glfw_config.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/include/GLFW/glfw3.h
  C:/LLVM/lib/clang/15.0.7/include/stddef.h
  C:/LLVM/lib/clang/15.0.7/include/stdint.h
  C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.30.30705/include/stdint.h
@@ -621,7 +616,7 @@ vendor/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj
  C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.30.30705/include/concurrencysal.h
  C:/LLVM/lib/clang/15.0.7/include/vadefs.h
  C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.30.30705/include/vadefs.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/win32_platform.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/win32_platform.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/wctype.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/corecrt.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/corecrt_wctype.h
@@ -749,10 +744,10 @@ vendor/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/PropIdl.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/Xinput.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/Dbt.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/win32_joystick.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/wgl_context.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/egl_context.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/osmesa_context.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/win32_joystick.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/wgl_context.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/egl_context.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/osmesa_context.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/assert.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/math.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/corecrt_math.h
@@ -761,7 +756,6 @@ vendor/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj
 
 vendor/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj
  D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/osmesa_context.c
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/osmesa_context.c
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/stdlib.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/corecrt.h
  C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.30.30705/include/vcruntime.h
@@ -782,12 +776,12 @@ vendor/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj
  C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.30.30705/include/vcruntime_string.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/corecrt_wstring.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/assert.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/internal.h
- D:/Github/Graphics-Labs/Lab 1/build/vendor/glfw/src/glfw_config.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/include/GLFW/glfw3.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/internal.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/build/vendor/glfw/src/glfw_config.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/include/GLFW/glfw3.h
  C:/LLVM/lib/clang/15.0.7/include/stdint.h
  C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.30.30705/include/stdint.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/win32_platform.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/win32_platform.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/wctype.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/corecrt_wctype.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/Windows.h
@@ -902,17 +896,16 @@ vendor/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/PropIdl.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/Xinput.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/Dbt.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/win32_joystick.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/wgl_context.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/egl_context.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/osmesa_context.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/win32_joystick.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/wgl_context.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/egl_context.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/osmesa_context.h
 
 vendor/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj
  D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/vulkan.c
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/vulkan.c
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/internal.h
- D:/Github/Graphics-Labs/Lab 1/build/vendor/glfw/src/glfw_config.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/include/GLFW/glfw3.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/internal.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/build/vendor/glfw/src/glfw_config.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/include/GLFW/glfw3.h
  C:/LLVM/lib/clang/15.0.7/include/stddef.h
  C:/LLVM/lib/clang/15.0.7/include/stdint.h
  C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.30.30705/include/stdint.h
@@ -921,7 +914,7 @@ vendor/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj
  C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.30.30705/include/concurrencysal.h
  C:/LLVM/lib/clang/15.0.7/include/vadefs.h
  C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.30.30705/include/vadefs.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/win32_platform.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/win32_platform.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/wctype.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/corecrt.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/corecrt_wctype.h
@@ -1049,18 +1042,17 @@ vendor/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/PropIdl.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/Xinput.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/Dbt.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/win32_joystick.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/wgl_context.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/egl_context.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/osmesa_context.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/win32_joystick.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/wgl_context.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/egl_context.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/osmesa_context.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/assert.h
 
 vendor/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj
  D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/wgl_context.c
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/wgl_context.c
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/internal.h
- D:/Github/Graphics-Labs/Lab 1/build/vendor/glfw/src/glfw_config.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/include/GLFW/glfw3.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/internal.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/build/vendor/glfw/src/glfw_config.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/include/GLFW/glfw3.h
  C:/LLVM/lib/clang/15.0.7/include/stddef.h
  C:/LLVM/lib/clang/15.0.7/include/stdint.h
  C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.30.30705/include/stdint.h
@@ -1069,7 +1061,7 @@ vendor/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj
  C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.30.30705/include/concurrencysal.h
  C:/LLVM/lib/clang/15.0.7/include/vadefs.h
  C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.30.30705/include/vadefs.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/win32_platform.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/win32_platform.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/wctype.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/corecrt.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/corecrt_wctype.h
@@ -1197,19 +1189,18 @@ vendor/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/PropIdl.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/Xinput.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/Dbt.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/win32_joystick.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/wgl_context.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/egl_context.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/osmesa_context.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/win32_joystick.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/wgl_context.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/egl_context.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/osmesa_context.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/malloc.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/assert.h
 
 vendor/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj
  D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/win32_init.c
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/win32_init.c
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/internal.h
- D:/Github/Graphics-Labs/Lab 1/build/vendor/glfw/src/glfw_config.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/include/GLFW/glfw3.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/internal.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/build/vendor/glfw/src/glfw_config.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/include/GLFW/glfw3.h
  C:/LLVM/lib/clang/15.0.7/include/stddef.h
  C:/LLVM/lib/clang/15.0.7/include/stdint.h
  C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.30.30705/include/stdint.h
@@ -1218,7 +1209,7 @@ vendor/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj
  C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.30.30705/include/concurrencysal.h
  C:/LLVM/lib/clang/15.0.7/include/vadefs.h
  C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.30.30705/include/vadefs.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/win32_platform.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/win32_platform.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/wctype.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/corecrt.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/corecrt_wctype.h
@@ -1346,18 +1337,17 @@ vendor/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/PropIdl.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/Xinput.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/Dbt.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/win32_joystick.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/wgl_context.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/egl_context.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/osmesa_context.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/win32_joystick.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/wgl_context.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/egl_context.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/osmesa_context.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/malloc.h
 
 vendor/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj
  D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/win32_joystick.c
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/win32_joystick.c
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/internal.h
- D:/Github/Graphics-Labs/Lab 1/build/vendor/glfw/src/glfw_config.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/include/GLFW/glfw3.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/internal.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/build/vendor/glfw/src/glfw_config.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/include/GLFW/glfw3.h
  C:/LLVM/lib/clang/15.0.7/include/stddef.h
  C:/LLVM/lib/clang/15.0.7/include/stdint.h
  C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.30.30705/include/stdint.h
@@ -1366,7 +1356,7 @@ vendor/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj
  C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.30.30705/include/concurrencysal.h
  C:/LLVM/lib/clang/15.0.7/include/vadefs.h
  C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.30.30705/include/vadefs.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/win32_platform.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/win32_platform.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/wctype.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/corecrt.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/corecrt_wctype.h
@@ -1494,10 +1484,10 @@ vendor/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/PropIdl.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/Xinput.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/Dbt.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/win32_joystick.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/wgl_context.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/egl_context.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/osmesa_context.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/win32_joystick.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/wgl_context.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/egl_context.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/osmesa_context.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/stdio.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/corecrt_wstdio.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/corecrt_stdio_config.h
@@ -1506,10 +1496,9 @@ vendor/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj
 
 vendor/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj
  D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/win32_monitor.c
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/win32_monitor.c
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/internal.h
- D:/Github/Graphics-Labs/Lab 1/build/vendor/glfw/src/glfw_config.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/include/GLFW/glfw3.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/internal.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/build/vendor/glfw/src/glfw_config.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/include/GLFW/glfw3.h
  C:/LLVM/lib/clang/15.0.7/include/stddef.h
  C:/LLVM/lib/clang/15.0.7/include/stdint.h
  C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.30.30705/include/stdint.h
@@ -1518,7 +1507,7 @@ vendor/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj
  C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.30.30705/include/concurrencysal.h
  C:/LLVM/lib/clang/15.0.7/include/vadefs.h
  C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.30.30705/include/vadefs.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/win32_platform.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/win32_platform.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/wctype.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/corecrt.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/corecrt_wctype.h
@@ -1646,10 +1635,10 @@ vendor/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/PropIdl.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/Xinput.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/Dbt.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/win32_joystick.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/wgl_context.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/egl_context.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/osmesa_context.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/win32_joystick.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/wgl_context.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/egl_context.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/osmesa_context.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/malloc.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/wchar.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/corecrt_wconio.h
@@ -1665,10 +1654,9 @@ vendor/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj
 
 vendor/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj
  D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/win32_thread.c
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/win32_thread.c
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/internal.h
- D:/Github/Graphics-Labs/Lab 1/build/vendor/glfw/src/glfw_config.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/include/GLFW/glfw3.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/internal.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/build/vendor/glfw/src/glfw_config.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/include/GLFW/glfw3.h
  C:/LLVM/lib/clang/15.0.7/include/stddef.h
  C:/LLVM/lib/clang/15.0.7/include/stdint.h
  C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.30.30705/include/stdint.h
@@ -1677,7 +1665,7 @@ vendor/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj
  C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.30.30705/include/concurrencysal.h
  C:/LLVM/lib/clang/15.0.7/include/vadefs.h
  C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.30.30705/include/vadefs.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/win32_platform.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/win32_platform.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/wctype.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/corecrt.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/corecrt_wctype.h
@@ -1805,18 +1793,17 @@ vendor/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/PropIdl.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/Xinput.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/Dbt.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/win32_joystick.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/wgl_context.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/egl_context.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/osmesa_context.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/win32_joystick.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/wgl_context.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/egl_context.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/osmesa_context.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/assert.h
 
 vendor/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj
  D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/win32_time.c
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/win32_time.c
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/internal.h
- D:/Github/Graphics-Labs/Lab 1/build/vendor/glfw/src/glfw_config.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/include/GLFW/glfw3.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/internal.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/build/vendor/glfw/src/glfw_config.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/include/GLFW/glfw3.h
  C:/LLVM/lib/clang/15.0.7/include/stddef.h
  C:/LLVM/lib/clang/15.0.7/include/stdint.h
  C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.30.30705/include/stdint.h
@@ -1825,7 +1812,7 @@ vendor/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj
  C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.30.30705/include/concurrencysal.h
  C:/LLVM/lib/clang/15.0.7/include/vadefs.h
  C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.30.30705/include/vadefs.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/win32_platform.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/win32_platform.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/wctype.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/corecrt.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/corecrt_wctype.h
@@ -1953,17 +1940,16 @@ vendor/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/PropIdl.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/Xinput.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/Dbt.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/win32_joystick.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/wgl_context.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/egl_context.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/osmesa_context.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/win32_joystick.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/wgl_context.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/egl_context.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/osmesa_context.h
 
 vendor/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj
  D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/win32_window.c
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/win32_window.c
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/internal.h
- D:/Github/Graphics-Labs/Lab 1/build/vendor/glfw/src/glfw_config.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/include/GLFW/glfw3.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/internal.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/build/vendor/glfw/src/glfw_config.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/include/GLFW/glfw3.h
  C:/LLVM/lib/clang/15.0.7/include/stddef.h
  C:/LLVM/lib/clang/15.0.7/include/stdint.h
  C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.30.30705/include/stdint.h
@@ -1972,7 +1958,7 @@ vendor/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj
  C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.30.30705/include/concurrencysal.h
  C:/LLVM/lib/clang/15.0.7/include/vadefs.h
  C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.30.30705/include/vadefs.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/win32_platform.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/win32_platform.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/wctype.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/corecrt.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/corecrt_wctype.h
@@ -2100,20 +2086,19 @@ vendor/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/PropIdl.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/Xinput.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/Dbt.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/win32_joystick.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/wgl_context.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/egl_context.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/osmesa_context.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/win32_joystick.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/wgl_context.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/egl_context.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/osmesa_context.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/malloc.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/shared/windowsx.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/shellapi.h
 
 vendor/glfw/src/CMakeFiles/glfw.dir/window.c.obj
  D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/window.c
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/window.c
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/internal.h
- D:/Github/Graphics-Labs/Lab 1/build/vendor/glfw/src/glfw_config.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/include/GLFW/glfw3.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/internal.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/build/vendor/glfw/src/glfw_config.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/include/GLFW/glfw3.h
  C:/LLVM/lib/clang/15.0.7/include/stddef.h
  C:/LLVM/lib/clang/15.0.7/include/stdint.h
  C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.30.30705/include/stdint.h
@@ -2122,7 +2107,7 @@ vendor/glfw/src/CMakeFiles/glfw.dir/window.c.obj
  C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.30.30705/include/concurrencysal.h
  C:/LLVM/lib/clang/15.0.7/include/vadefs.h
  C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.30.30705/include/vadefs.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/win32_platform.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/win32_platform.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/wctype.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/corecrt.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/corecrt_wctype.h
@@ -2250,10 +2235,10 @@ vendor/glfw/src/CMakeFiles/glfw.dir/window.c.obj
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/PropIdl.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/Xinput.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/um/Dbt.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/win32_joystick.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/wgl_context.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/egl_context.h
- D:/Github/Graphics-Labs/Lab 1/vendor/glfw/src/osmesa_context.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/win32_joystick.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/wgl_context.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/egl_context.h
+ D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/src/osmesa_context.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/assert.h
  C:/LLVM/lib/clang/15.0.7/include/float.h
  C:/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/float.h

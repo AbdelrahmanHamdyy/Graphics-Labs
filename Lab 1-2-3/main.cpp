@@ -5,6 +5,19 @@
 #include <string>
 #include <fstream>
 
+struct Vec3 {
+    float x, y, z;
+};
+
+struct Color {
+    uint8_t r, g, b, a;
+};
+
+struct Vertex {
+    Vec3 position;
+    Color color;
+};
+
 GLuint load_shader(const std::string& path, GLenum shader_type) {
     std::ifstream file(path);
     std::string sourceCode = std::string(std::istreambuf_iterator<char>(file), std::istreambuf_iterator<char>());
@@ -66,22 +79,57 @@ int main() {
     glDeleteShader(vs);
     glDeleteShader(fs);
 
+    Vertex vertices[4] = {
+        {{-0.5, -0.5, 0.0},    {255, 0, 0, 255}},
+        {{ 0.5, -0.5, 0.0},    {0, 255, 0, 255}},
+        {{-0.5,  0.5, 0.0},    {0, 0, 255, 255}},
+        {{ 0.5,  0.5, 0.0},    {255, 255, 0, 255}},
+    };
+
+    uint16_t elements[6] = { 0, 1, 2, 3, 1, 2 };
+
+    GLuint vertex_buffer;
+    glGenBuffers(1, &vertex_buffer);
+    glBindBuffer(GL_ARRAY_BUFFER, vertex_buffer);
+    glBufferData(GL_ARRAY_BUFFER, 4 * sizeof(Vertex), vertices, GL_STATIC_DRAW);
+
+    GLuint element_buffer;
+    glGenBuffers(1, &element_buffer);
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, element_buffer);
+    glBufferData(GL_ELEMENT_ARRAY_BUFFER, 6 * sizeof(uint16_t), elements, GL_STATIC_DRAW);
+
     GLuint vertex_array;
     glGenVertexArrays(1, &vertex_array);
+    glBindVertexArray(vertex_array);
+
+    glBindBuffer(GL_ARRAY_BUFFER, vertex_buffer);
+
+    GLuint position_loc = 0; //glGetAttribLocation(program, "position");
+    glEnableVertexAttribArray(position_loc);
+    glVertexAttribPointer(position_loc, 3, GL_FLOAT, false, sizeof(Vertex), 0);
+    
+    GLuint color_loc = 1; //glGetAttribLocation(program, "color");
+    glEnableVertexAttribArray(color_loc);
+    glVertexAttribPointer(color_loc, 4, GL_UNSIGNED_BYTE, true, sizeof(Vertex), (void*)offsetof(Vertex, color));
+
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, element_buffer);
+
+    glBindVertexArray(0);
+
+    GLuint time_loc = glGetUniformLocation(program, "time");
+    std::cout << "Time uniform location: " << time_loc << std::endl;
 
     while(!glfwWindowShouldClose(window)) {
         float time =  (float)glfwGetTime();
-        glClearColor(
-            0.5 * sinf(time) + 0.5,
-            0.5 * sinf(time + 1.0) + 0.5,
-            0.5 * sinf(time + 2.0) + 0.5,
-            1.0
-        );
+        glClearColor(0.0, 0.0, 0.0, 1.0);
         glClear(GL_COLOR_BUFFER_BIT);
 
         glUseProgram(program);
         glBindVertexArray(vertex_array);
-        glDrawArrays(GL_TRIANGLES, 0, 3);
+
+        glUniform1f(time_loc, time);
+        //glDrawArrays(GL_TRIANGLES, 0, 6);
+        glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_SHORT, (void*)0);
 
         glfwSwapBuffers(window);
         glfwPollEvents();
