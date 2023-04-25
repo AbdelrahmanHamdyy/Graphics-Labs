@@ -53,10 +53,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:/Github/Graphics-Labs/Lab 1-2-3"
+CMAKE_SOURCE_DIR = D:/Github/Graphics-Labs/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:/Github/Graphics-Labs/Lab 1-2-3/build"
+CMAKE_BINARY_DIR = D:/Github/Graphics-Labs/src/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Gfx_lab.dir/depend.make
@@ -71,33 +71,33 @@ include CMakeFiles/Gfx_lab.dir/flags.make
 
 CMakeFiles/Gfx_lab.dir/main.cpp.obj: CMakeFiles/Gfx_lab.dir/flags.make
 CMakeFiles/Gfx_lab.dir/main.cpp.obj: CMakeFiles/Gfx_lab.dir/includes_CXX.rsp
-CMakeFiles/Gfx_lab.dir/main.cpp.obj: D:/Github/Graphics-Labs/Lab\ 1-2-3/main.cpp
+CMakeFiles/Gfx_lab.dir/main.cpp.obj: D:/Github/Graphics-Labs/src/main.cpp
 CMakeFiles/Gfx_lab.dir/main.cpp.obj: CMakeFiles/Gfx_lab.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:/Github/Graphics-Labs/Lab 1-2-3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Gfx_lab.dir/main.cpp.obj"
-	C:/LLVM/bin/clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Gfx_lab.dir/main.cpp.obj -MF CMakeFiles/Gfx_lab.dir/main.cpp.obj.d -o CMakeFiles/Gfx_lab.dir/main.cpp.obj -c "D:/Github/Graphics-Labs/Lab 1-2-3/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:/Github/Graphics-Labs/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Gfx_lab.dir/main.cpp.obj"
+	C:/MinGW/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Gfx_lab.dir/main.cpp.obj -MF CMakeFiles/Gfx_lab.dir/main.cpp.obj.d -o CMakeFiles/Gfx_lab.dir/main.cpp.obj -c D:/Github/Graphics-Labs/src/main.cpp
 
 CMakeFiles/Gfx_lab.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gfx_lab.dir/main.cpp.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_PREPROCESSED_SOURCE
+	C:/MinGW/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:/Github/Graphics-Labs/src/main.cpp > CMakeFiles/Gfx_lab.dir/main.cpp.i
 
 CMakeFiles/Gfx_lab.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gfx_lab.dir/main.cpp.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_ASSEMBLY_SOURCE
+	C:/MinGW/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:/Github/Graphics-Labs/src/main.cpp -o CMakeFiles/Gfx_lab.dir/main.cpp.s
 
 CMakeFiles/Gfx_lab.dir/vendor/glad/src/gl.c.obj: CMakeFiles/Gfx_lab.dir/flags.make
 CMakeFiles/Gfx_lab.dir/vendor/glad/src/gl.c.obj: CMakeFiles/Gfx_lab.dir/includes_C.rsp
-CMakeFiles/Gfx_lab.dir/vendor/glad/src/gl.c.obj: D:/Github/Graphics-Labs/Lab\ 1-2-3/vendor/glad/src/gl.c
+CMakeFiles/Gfx_lab.dir/vendor/glad/src/gl.c.obj: D:/Github/Graphics-Labs/src/vendor/glad/src/gl.c
 CMakeFiles/Gfx_lab.dir/vendor/glad/src/gl.c.obj: CMakeFiles/Gfx_lab.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:/Github/Graphics-Labs/Lab 1-2-3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Gfx_lab.dir/vendor/glad/src/gl.c.obj"
-	C:/LLVM/bin/clang.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Gfx_lab.dir/vendor/glad/src/gl.c.obj -MF CMakeFiles/Gfx_lab.dir/vendor/glad/src/gl.c.obj.d -o CMakeFiles/Gfx_lab.dir/vendor/glad/src/gl.c.obj -c "D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glad/src/gl.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:/Github/Graphics-Labs/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Gfx_lab.dir/vendor/glad/src/gl.c.obj"
+	C:/MinGW/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Gfx_lab.dir/vendor/glad/src/gl.c.obj -MF CMakeFiles/Gfx_lab.dir/vendor/glad/src/gl.c.obj.d -o CMakeFiles/Gfx_lab.dir/vendor/glad/src/gl.c.obj -c D:/Github/Graphics-Labs/src/vendor/glad/src/gl.c
 
 CMakeFiles/Gfx_lab.dir/vendor/glad/src/gl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Gfx_lab.dir/vendor/glad/src/gl.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	C:/MinGW/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:/Github/Graphics-Labs/src/vendor/glad/src/gl.c > CMakeFiles/Gfx_lab.dir/vendor/glad/src/gl.c.i
 
 CMakeFiles/Gfx_lab.dir/vendor/glad/src/gl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Gfx_lab.dir/vendor/glad/src/gl.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	C:/MinGW/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:/Github/Graphics-Labs/src/vendor/glad/src/gl.c -o CMakeFiles/Gfx_lab.dir/vendor/glad/src/gl.c.s
 
 # Object files for target Gfx_lab
 Gfx_lab_OBJECTS = \
@@ -107,17 +107,19 @@ Gfx_lab_OBJECTS = \
 # External object files for target Gfx_lab
 Gfx_lab_EXTERNAL_OBJECTS =
 
-D:/Github/Graphics-Labs/Lab\ 1-2-3/bin/Gfx_lab.exe: CMakeFiles/Gfx_lab.dir/main.cpp.obj
-D:/Github/Graphics-Labs/Lab\ 1-2-3/bin/Gfx_lab.exe: CMakeFiles/Gfx_lab.dir/vendor/glad/src/gl.c.obj
-D:/Github/Graphics-Labs/Lab\ 1-2-3/bin/Gfx_lab.exe: CMakeFiles/Gfx_lab.dir/build.make
-D:/Github/Graphics-Labs/Lab\ 1-2-3/bin/Gfx_lab.exe: vendor/glfw/src/glfw3.lib
-D:/Github/Graphics-Labs/Lab\ 1-2-3/bin/Gfx_lab.exe: CMakeFiles/Gfx_lab.dir/linkLibs.rsp
-D:/Github/Graphics-Labs/Lab\ 1-2-3/bin/Gfx_lab.exe: CMakeFiles/Gfx_lab.dir/objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:/Github/Graphics-Labs/Lab 1-2-3/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable \"D:/Github/Graphics-Labs/Lab 1-2-3/bin/Gfx_lab.exe\""
-	C:/LLVM/bin/clang++.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/Gfx_lab.dir/objects1.rsp -o "D:/Github/Graphics-Labs/Lab 1-2-3/bin/Gfx_lab.exe" -Xlinker /MANIFEST:EMBED -Xlinker /implib:Gfx_lab.lib -Xlinker /pdb:"D:/Github/Graphics-Labs/Lab 1-2-3/bin/Gfx_lab.pdb" -Xlinker /version:0.0  @CMakeFiles/Gfx_lab.dir/linkLibs.rsp 
+D:/Github/Graphics-Labs/src/bin/Gfx_lab.exe: CMakeFiles/Gfx_lab.dir/main.cpp.obj
+D:/Github/Graphics-Labs/src/bin/Gfx_lab.exe: CMakeFiles/Gfx_lab.dir/vendor/glad/src/gl.c.obj
+D:/Github/Graphics-Labs/src/bin/Gfx_lab.exe: CMakeFiles/Gfx_lab.dir/build.make
+D:/Github/Graphics-Labs/src/bin/Gfx_lab.exe: vendor/glfw/src/libglfw3.a
+D:/Github/Graphics-Labs/src/bin/Gfx_lab.exe: CMakeFiles/Gfx_lab.dir/linkLibs.rsp
+D:/Github/Graphics-Labs/src/bin/Gfx_lab.exe: CMakeFiles/Gfx_lab.dir/objects1.rsp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:/Github/Graphics-Labs/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable D:/Github/Graphics-Labs/src/bin/Gfx_lab.exe"
+	"C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/Gfx_lab.dir/objects.a
+	C:/MinGW/bin/ar.exe qc CMakeFiles/Gfx_lab.dir/objects.a @CMakeFiles/Gfx_lab.dir/objects1.rsp
+	C:/MinGW/bin/g++.exe -g -Wl,--whole-archive CMakeFiles/Gfx_lab.dir/objects.a -Wl,--no-whole-archive -o D:/Github/Graphics-Labs/src/bin/Gfx_lab.exe -Wl,--out-implib,libGfx_lab.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/Gfx_lab.dir/linkLibs.rsp
 
 # Rule to build all files generated by this target.
-CMakeFiles/Gfx_lab.dir/build: D:/Github/Graphics-Labs/Lab\ 1-2-3/bin/Gfx_lab.exe
+CMakeFiles/Gfx_lab.dir/build: D:/Github/Graphics-Labs/src/bin/Gfx_lab.exe
 .PHONY : CMakeFiles/Gfx_lab.dir/build
 
 CMakeFiles/Gfx_lab.dir/clean:
@@ -125,6 +127,6 @@ CMakeFiles/Gfx_lab.dir/clean:
 .PHONY : CMakeFiles/Gfx_lab.dir/clean
 
 CMakeFiles/Gfx_lab.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "D:/Github/Graphics-Labs/Lab 1-2-3" "D:/Github/Graphics-Labs/Lab 1-2-3" "D:/Github/Graphics-Labs/Lab 1-2-3/build" "D:/Github/Graphics-Labs/Lab 1-2-3/build" "D:/Github/Graphics-Labs/Lab 1-2-3/build/CMakeFiles/Gfx_lab.dir/DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" D:/Github/Graphics-Labs/src D:/Github/Graphics-Labs/src D:/Github/Graphics-Labs/src/build D:/Github/Graphics-Labs/src/build D:/Github/Graphics-Labs/src/build/CMakeFiles/Gfx_lab.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Gfx_lab.dir/depend
 

@@ -1,117 +1,159 @@
-CMakeFiles/Gfx_lab.dir/main.cpp.obj: \
-  D:\Github\Graphics-Labs\Lab\ 1-2-3\main.cpp \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\iostream \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\yvals_core.h \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\vcruntime.h \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\sal.h \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\concurrencysal.h \
-  C:\LLVM\lib\clang\15.0.7\include\vadefs.h \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\vadefs.h \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\xkeycheck.h \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\istream \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\ostream \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\ios \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\xlocnum \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\climits \
-  C:\LLVM\lib\clang\15.0.7\include\limits.h \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\limits.h \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\cmath \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\yvals.h \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\crtdbg.h \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt.h \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\vcruntime_new_debug.h \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\vcruntime_new.h \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\crtdefs.h \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\use_ansi.h \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\cstdlib \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\math.h \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt_math.h \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\stdlib.h \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt_malloc.h \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt_search.h \
-  C:\LLVM\lib\clang\15.0.7\include\stddef.h \
-  C:\LLVM\lib\clang\15.0.7\include\__stddef_max_align_t.h \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstdlib.h \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\xtr1common \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\cstdio \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\stdio.h \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstdio.h \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt_stdio_config.h \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\iterator \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\iosfwd \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\cstring \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\string.h \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt_memory.h \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt_memcpy_s.h \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\errno.h \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\vcruntime_string.h \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstring.h \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\cwchar \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\wchar.h \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt_wconio.h \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt_wctype.h \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt_wdirect.h \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt_wio.h \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt_share.h \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt_wprocess.h \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt_wtime.h \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\sys\stat.h \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\sys\types.h \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\xstddef \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\cstddef \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\initializer_list \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\xutility \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\utility \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\type_traits \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\cstdint \
-  C:\LLVM\lib\clang\15.0.7\include\stdint.h \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\stdint.h \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\streambuf \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\xiosbase \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\share.h \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\system_error \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\__msvc_system_error_abi.hpp \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\cerrno \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\stdexcept \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\exception \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\malloc.h \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\vcruntime_exception.h \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\eh.h \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt_terminate.h \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\xstring \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\xmemory \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\limits \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\cfloat \
-  C:\LLVM\lib\clang\15.0.7\include\float.h \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\float.h \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\intrin0.h \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\intrin0.inl.h \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\isa_availability.h \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\new \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\xatomic.h \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\xcall_once.h \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\xerrc.h \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\atomic \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\xthreads.h \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\xtimec.h \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\ctime \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\time.h \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\xlocale \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\memory \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\typeinfo \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\vcruntime_typeinfo.h \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\xfacet \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\xlocinfo \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\__msvc_xlocinfo_types.hpp \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\cctype \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\ctype.h \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\clocale \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\locale.h \
-  D:\Github\Graphics-Labs\Lab\ 1-2-3\vendor\glad\include\glad\gl.h \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\shared\winapifamily.h \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\shared\winpackagefamily.h \
-  D:\Github\Graphics-Labs\Lab\ 1-2-3\vendor\glad\include\KHR\khrplatform.h \
-  D:\Github\Graphics-Labs\Lab\ 1-2-3\vendor\glfw\include\GLFW\glfw3.h \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\um\GL\gl.h \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\string \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\fstream
+CMakeFiles/Gfx_lab.dir/main.cpp.obj: D:/Github/Graphics-Labs/src/main.cpp \
+ c:\mingw\include\c++\11.2.0\iostream \
+ c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\c++config.h \
+ c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\os_defines.h \
+ c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\cpu_defines.h \
+ c:\mingw\include\c++\11.2.0\pstl\pstl_config.h \
+ c:\mingw\include\c++\11.2.0\ostream c:\mingw\include\c++\11.2.0\ios \
+ c:\mingw\include\c++\11.2.0\iosfwd \
+ c:\mingw\include\c++\11.2.0\bits\stringfwd.h \
+ c:\mingw\include\c++\11.2.0\bits\memoryfwd.h \
+ c:\mingw\include\c++\11.2.0\bits\postypes.h \
+ c:\mingw\include\c++\11.2.0\cwchar \
+ c:\mingw\x86_64-w64-mingw32\include\wchar.h \
+ c:\mingw\x86_64-w64-mingw32\include\corecrt.h \
+ c:\mingw\x86_64-w64-mingw32\include\_mingw.h \
+ c:\mingw\x86_64-w64-mingw32\include\_mingw_mac.h \
+ c:\mingw\x86_64-w64-mingw32\include\_mingw_secapi.h \
+ c:\mingw\x86_64-w64-mingw32\include\vadefs.h \
+ c:\mingw\x86_64-w64-mingw32\include\sdks/_mingw_ddk.h \
+ c:\mingw\x86_64-w64-mingw32\include\corecrt_stdio_config.h \
+ c:\mingw\x86_64-w64-mingw32\include\corecrt_wstdlib.h \
+ c:\mingw\x86_64-w64-mingw32\include\_mingw_off_t.h \
+ c:\mingw\x86_64-w64-mingw32\include\_mingw_stat64.h \
+ c:\mingw\x86_64-w64-mingw32\include\swprintf.inl \
+ c:\mingw\x86_64-w64-mingw32\include\sec_api\wchar_s.h \
+ c:\mingw\include\c++\11.2.0\exception \
+ c:\mingw\include\c++\11.2.0\bits\exception.h \
+ c:\mingw\include\c++\11.2.0\bits\exception_ptr.h \
+ c:\mingw\include\c++\11.2.0\bits\exception_defines.h \
+ c:\mingw\include\c++\11.2.0\bits\cxxabi_init_exception.h \
+ c:\mingw\lib\gcc\x86_64-w64-mingw32\11.2.0\include\stddef.h \
+ c:\mingw\x86_64-w64-mingw32\include\stddef.h \
+ c:\mingw\x86_64-w64-mingw32\include\crtdefs.h \
+ c:\mingw\include\c++\11.2.0\typeinfo \
+ c:\mingw\include\c++\11.2.0\bits\hash_bytes.h \
+ c:\mingw\include\c++\11.2.0\new \
+ c:\mingw\include\c++\11.2.0\bits\nested_exception.h \
+ c:\mingw\include\c++\11.2.0\bits\move.h \
+ c:\mingw\include\c++\11.2.0\type_traits \
+ c:\mingw\include\c++\11.2.0\bits\char_traits.h \
+ c:\mingw\include\c++\11.2.0\bits\stl_algobase.h \
+ c:\mingw\include\c++\11.2.0\bits\functexcept.h \
+ c:\mingw\include\c++\11.2.0\bits\cpp_type_traits.h \
+ c:\mingw\include\c++\11.2.0\ext\type_traits.h \
+ c:\mingw\include\c++\11.2.0\ext\numeric_traits.h \
+ c:\mingw\include\c++\11.2.0\bits\stl_pair.h \
+ c:\mingw\include\c++\11.2.0\bits\stl_iterator_base_types.h \
+ c:\mingw\include\c++\11.2.0\bits\stl_iterator_base_funcs.h \
+ c:\mingw\include\c++\11.2.0\bits\concept_check.h \
+ c:\mingw\include\c++\11.2.0\debug\assertions.h \
+ c:\mingw\include\c++\11.2.0\bits\stl_iterator.h \
+ c:\mingw\include\c++\11.2.0\bits\ptr_traits.h \
+ c:\mingw\include\c++\11.2.0\debug\debug.h \
+ c:\mingw\include\c++\11.2.0\bits\predefined_ops.h \
+ c:\mingw\include\c++\11.2.0\cstdint \
+ c:\mingw\lib\gcc\x86_64-w64-mingw32\11.2.0\include\stdint.h \
+ c:\mingw\x86_64-w64-mingw32\include\stdint.h \
+ c:\mingw\include\c++\11.2.0\bits\localefwd.h \
+ c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\c++locale.h \
+ c:\mingw\include\c++\11.2.0\clocale \
+ c:\mingw\x86_64-w64-mingw32\include\locale.h \
+ c:\mingw\x86_64-w64-mingw32\include\stdio.h \
+ c:\mingw\x86_64-w64-mingw32\include\sec_api\stdio_s.h \
+ c:\mingw\include\c++\11.2.0\cctype \
+ c:\mingw\x86_64-w64-mingw32\include\ctype.h \
+ c:\mingw\include\c++\11.2.0\bits\ios_base.h \
+ c:\mingw\include\c++\11.2.0\ext\atomicity.h \
+ c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\gthr.h \
+ c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\gthr-default.h \
+ c:\mingw\x86_64-w64-mingw32\include\pthread.h \
+ c:\mingw\x86_64-w64-mingw32\include\errno.h \
+ c:\mingw\x86_64-w64-mingw32\include\sys\types.h \
+ c:\mingw\x86_64-w64-mingw32\include\process.h \
+ c:\mingw\x86_64-w64-mingw32\include\corecrt_startup.h \
+ c:\mingw\lib\gcc\x86_64-w64-mingw32\11.2.0\include-fixed\limits.h \
+ c:\mingw\lib\gcc\x86_64-w64-mingw32\11.2.0\include-fixed\syslimits.h \
+ c:\mingw\x86_64-w64-mingw32\include\limits.h \
+ c:\mingw\x86_64-w64-mingw32\include\signal.h \
+ c:\mingw\x86_64-w64-mingw32\include\pthread_signal.h \
+ c:\mingw\x86_64-w64-mingw32\include\time.h \
+ c:\mingw\x86_64-w64-mingw32\include\_timeval.h \
+ c:\mingw\x86_64-w64-mingw32\include\sys\timeb.h \
+ c:\mingw\x86_64-w64-mingw32\include\sec_api\sys\timeb_s.h \
+ c:\mingw\x86_64-w64-mingw32\include\pthread_time.h \
+ c:\mingw\x86_64-w64-mingw32\include\pthread_compat.h \
+ c:\mingw\x86_64-w64-mingw32\include\pthread_unistd.h \
+ c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\atomic_word.h \
+ c:\mingw\include\c++\11.2.0\bits\locale_classes.h \
+ c:\mingw\include\c++\11.2.0\string \
+ c:\mingw\include\c++\11.2.0\bits\allocator.h \
+ c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\c++allocator.h \
+ c:\mingw\include\c++\11.2.0\ext\new_allocator.h \
+ c:\mingw\include\c++\11.2.0\bits\ostream_insert.h \
+ c:\mingw\include\c++\11.2.0\bits\cxxabi_forced.h \
+ c:\mingw\include\c++\11.2.0\bits\stl_function.h \
+ c:\mingw\include\c++\11.2.0\backward\binders.h \
+ c:\mingw\include\c++\11.2.0\bits\range_access.h \
+ c:\mingw\include\c++\11.2.0\initializer_list \
+ c:\mingw\include\c++\11.2.0\bits\basic_string.h \
+ c:\mingw\include\c++\11.2.0\ext\alloc_traits.h \
+ c:\mingw\include\c++\11.2.0\bits\alloc_traits.h \
+ c:\mingw\include\c++\11.2.0\bits\stl_construct.h \
+ c:\mingw\include\c++\11.2.0\string_view \
+ c:\mingw\include\c++\11.2.0\bits\functional_hash.h \
+ c:\mingw\include\c++\11.2.0\bits\string_view.tcc \
+ c:\mingw\include\c++\11.2.0\ext\string_conversions.h \
+ c:\mingw\include\c++\11.2.0\cstdlib \
+ c:\mingw\x86_64-w64-mingw32\include\stdlib.h \
+ c:\mingw\x86_64-w64-mingw32\include\sec_api\stdlib_s.h \
+ c:\mingw\include\c++\11.2.0\stdlib.h \
+ c:\mingw\x86_64-w64-mingw32\include\malloc.h \
+ c:\mingw\lib\gcc\x86_64-w64-mingw32\11.2.0\include\mm_malloc.h \
+ c:\mingw\include\c++\11.2.0\bits\std_abs.h \
+ c:\mingw\include\c++\11.2.0\cstdio c:\mingw\include\c++\11.2.0\cerrno \
+ c:\mingw\include\c++\11.2.0\bits\charconv.h \
+ c:\mingw\include\c++\11.2.0\bits\basic_string.tcc \
+ c:\mingw\include\c++\11.2.0\bits\locale_classes.tcc \
+ c:\mingw\include\c++\11.2.0\system_error \
+ c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\error_constants.h \
+ c:\mingw\include\c++\11.2.0\stdexcept \
+ c:\mingw\include\c++\11.2.0\streambuf \
+ c:\mingw\include\c++\11.2.0\bits\streambuf.tcc \
+ c:\mingw\include\c++\11.2.0\bits\basic_ios.h \
+ c:\mingw\include\c++\11.2.0\bits\locale_facets.h \
+ c:\mingw\include\c++\11.2.0\cwctype \
+ c:\mingw\x86_64-w64-mingw32\include\wctype.h \
+ c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\ctype_base.h \
+ c:\mingw\include\c++\11.2.0\bits\streambuf_iterator.h \
+ c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\ctype_inline.h \
+ c:\mingw\include\c++\11.2.0\bits\locale_facets.tcc \
+ c:\mingw\include\c++\11.2.0\bits\basic_ios.tcc \
+ c:\mingw\include\c++\11.2.0\bits\ostream.tcc \
+ c:\mingw\include\c++\11.2.0\istream \
+ c:\mingw\include\c++\11.2.0\bits\istream.tcc \
+ c:\mingw\include\c++\11.2.0\math.h c:\mingw\include\c++\11.2.0\cmath \
+ c:\mingw\x86_64-w64-mingw32\include\math.h \
+ c:\mingw\include\c++\11.2.0\bits\specfun.h \
+ c:\mingw\include\c++\11.2.0\limits \
+ c:\mingw\include\c++\11.2.0\tr1\gamma.tcc \
+ c:\mingw\include\c++\11.2.0\tr1\special_function_util.h \
+ c:\mingw\include\c++\11.2.0\tr1\bessel_function.tcc \
+ c:\mingw\include\c++\11.2.0\tr1\beta_function.tcc \
+ c:\mingw\include\c++\11.2.0\tr1\ell_integral.tcc \
+ c:\mingw\include\c++\11.2.0\tr1\exp_integral.tcc \
+ c:\mingw\include\c++\11.2.0\tr1\hypergeometric.tcc \
+ c:\mingw\include\c++\11.2.0\tr1\legendre_function.tcc \
+ c:\mingw\include\c++\11.2.0\tr1\modified_bessel_func.tcc \
+ c:\mingw\include\c++\11.2.0\tr1\poly_hermite.tcc \
+ c:\mingw\include\c++\11.2.0\tr1\poly_laguerre.tcc \
+ c:\mingw\include\c++\11.2.0\tr1\riemann_zeta.tcc \
+ D:/Github/Graphics-Labs/src/vendor/glad/include/glad/gl.h \
+ D:/Github/Graphics-Labs/src/vendor/glad/include/KHR/khrplatform.h \
+ D:/Github/Graphics-Labs/src/vendor/glfw/include/GLFW/glfw3.h \
+ c:\mingw\x86_64-w64-mingw32\include\gl\gl.h \
+ c:\mingw\include\c++\11.2.0\fstream \
+ c:\mingw\include\c++\11.2.0\bits\codecvt.h \
+ c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\basic_file.h \
+ c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\c++io.h \
+ c:\mingw\include\c++\11.2.0\bits\fstream.tcc

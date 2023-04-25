@@ -1,4 +1,4 @@
-# Install script for directory: D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw
+# Install script for directory: D:/Github/Graphics-Labs/src/vendor/glfw
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,12 +34,12 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/LLVM/bin/llvm-objdump.exe")
+  set(CMAKE_OBJDUMP "C:/MinGW/bin/objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/Github/Graphics-Labs/Lab 1-2-3/build/vendor/glfw/src/cmake_install.cmake")
+  include("D:/Github/Graphics-Labs/src/build/vendor/glfw/src/cmake_install.cmake")
 
 endif()
 

@@ -1,31 +1,31 @@
 CMakeFiles/Gfx_lab.dir/vendor/glad/src/gl.c.obj: \
-  D:\Github\Graphics-Labs\Lab\ 1-2-3\vendor\glad\src\gl.c \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\stdio.h \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt.h \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\vcruntime.h \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\sal.h \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\concurrencysal.h \
-  C:\LLVM\lib\clang\15.0.7\include\vadefs.h \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\vadefs.h \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstdio.h \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt_stdio_config.h \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\stdlib.h \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt_malloc.h \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt_search.h \
-  C:\LLVM\lib\clang\15.0.7\include\stddef.h \
-  C:\LLVM\lib\clang\15.0.7\include\__stddef_max_align_t.h \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstdlib.h \
-  C:\LLVM\lib\clang\15.0.7\include\limits.h \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\limits.h \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\string.h \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt_memory.h \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt_memcpy_s.h \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\errno.h \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\vcruntime_string.h \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstring.h \
-  D:\Github\Graphics-Labs\Lab\ 1-2-3\vendor\glad\include\glad\gl.h \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\shared\winapifamily.h \
-  C:\Program\ Files\ (x86)\Windows\ Kits\10\Include\10.0.19041.0\shared\winpackagefamily.h \
-  D:\Github\Graphics-Labs\Lab\ 1-2-3\vendor\glad\include\KHR\khrplatform.h \
-  C:\LLVM\lib\clang\15.0.7\include\stdint.h \
-  C:\Program\ Files\Microsoft\ Visual\ Studio\2022\Enterprise\VC\Tools\MSVC\14.30.30705\include\stdint.h
+ D:/Github/Graphics-Labs/src/vendor/glad/src/gl.c \
+ c:\mingw\x86_64-w64-mingw32\include\stdio.h \
+ c:\mingw\x86_64-w64-mingw32\include\corecrt_stdio_config.h \
+ c:\mingw\x86_64-w64-mingw32\include\corecrt.h \
+ c:\mingw\x86_64-w64-mingw32\include\_mingw.h \
+ c:\mingw\x86_64-w64-mingw32\include\_mingw_mac.h \
+ c:\mingw\x86_64-w64-mingw32\include\_mingw_secapi.h \
+ c:\mingw\x86_64-w64-mingw32\include\vadefs.h \
+ c:\mingw\x86_64-w64-mingw32\include\sdks/_mingw_ddk.h \
+ c:\mingw\x86_64-w64-mingw32\include\_mingw_off_t.h \
+ c:\mingw\x86_64-w64-mingw32\include\swprintf.inl \
+ c:\mingw\x86_64-w64-mingw32\include\sec_api\stdio_s.h \
+ c:\mingw\x86_64-w64-mingw32\include\stdlib.h \
+ c:\mingw\x86_64-w64-mingw32\include\corecrt_wstdlib.h \
+ c:\mingw\lib\gcc\x86_64-w64-mingw32\11.2.0\include-fixed\limits.h \
+ c:\mingw\lib\gcc\x86_64-w64-mingw32\11.2.0\include-fixed\syslimits.h \
+ c:\mingw\x86_64-w64-mingw32\include\limits.h \
+ c:\mingw\x86_64-w64-mingw32\include\crtdefs.h \
+ c:\mingw\x86_64-w64-mingw32\include\sec_api\stdlib_s.h \
+ c:\mingw\x86_64-w64-mingw32\include\malloc.h \
+ c:\mingw\lib\gcc\x86_64-w64-mingw32\11.2.0\include\mm_malloc.h \
+ c:\mingw\x86_64-w64-mingw32\include\errno.h \
+ c:\mingw\x86_64-w64-mingw32\include\string.h \
+ c:\mingw\x86_64-w64-mingw32\include\sec_api\string_s.h \
+ D:/Github/Graphics-Labs/src/vendor/glad/include/glad/gl.h \
+ D:/Github/Graphics-Labs/src/vendor/glad/include/KHR/khrplatform.h \
+ c:\mingw\lib\gcc\x86_64-w64-mingw32\11.2.0\include\stdint.h \
+ c:\mingw\x86_64-w64-mingw32\include\stdint.h \
+ c:\mingw\lib\gcc\x86_64-w64-mingw32\11.2.0\include\stddef.h \
+ c:\mingw\x86_64-w64-mingw32\include\stddef.h

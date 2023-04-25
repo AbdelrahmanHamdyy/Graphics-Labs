@@ -1,1 +1,1 @@
--I"D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glfw/include" -I"D:/Github/Graphics-Labs/Lab 1-2-3/vendor/glad/include"
+-I"D:/Github/Graphics-Labs/src/vendor/glfw/include" -I"D:/Github/Graphics-Labs/src/vendor/glad/include"
