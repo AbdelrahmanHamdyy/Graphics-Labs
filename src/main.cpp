@@ -4,17 +4,15 @@
 #include <GLFW/glfw3.h>
 #include <string>
 #include <fstream>
-
-struct Vec3 {
-    float x, y, z;
-};
+#include <glm/glm.hpp>
+#include <glm/gtc/matrix_transform.hpp>
 
 struct Color {
     uint8_t r, g, b, a;
 };
 
 struct Vertex {
-    Vec3 position;
+    glm::vec3 position;
     Color color;
 };
 
@@ -116,8 +114,7 @@ int main() {
 
     glBindVertexArray(0);
 
-    GLuint time_loc = glGetUniformLocation(program, "time");
-    std::cout << "Time uniform location: " << time_loc << std::endl;
+    GLuint mvp_loc = glGetUniformLocation(program, "MVP");
 
     while(!glfwWindowShouldClose(window)) {
         float time =  (float)glfwGetTime();
@@ -127,8 +124,17 @@ int main() {
         glUseProgram(program);
         glBindVertexArray(vertex_array);
 
-        glUniform1f(time_loc, time);
-        //glDrawArrays(GL_TRIANGLES, 0, 6);
+        glm::mat4 P = glm::perspective(glm::pi<float>()*0.5f, 640.0f / 480.0f, 0.01f, 1000.0f);
+        glm::mat4 V = glm::lookAt(
+            glm::vec3(2.0f * cosf(time), 1.0f, 2.0f * sinf(time)),
+            glm::vec3(0.0f, 0.0f, 0.0f),
+            glm::vec3(0.0f, 1.0f, 0.0f)
+        );
+        glm::mat4 M = glm::mat4(1.0f);
+
+        glm::mat4 MVP = P * V * M;
+
+        glUniformMatrix4fv(mvp_loc, 1, GL_FALSE, &MVP[0][0]);
         glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_SHORT, (void*)0);
 
         glfwSwapBuffers(window);
