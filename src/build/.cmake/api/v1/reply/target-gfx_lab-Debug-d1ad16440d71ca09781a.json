@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "D:/Github/Graphics-Labs/src/bin/Gfx_lab.exe"
+			"path" : "D:/Github/Graphics-Labs/src/bin/gfx_lab.exe"
 		},
 		{
-			"path" : "D:/Github/Graphics-Labs/src/bin/Gfx_lab.pdb"
+			"path" : "D:/Github/Graphics-Labs/src/bin/gfx_lab.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -29,13 +29,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 20,
+				"line" : 21,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 21,
+				"line" : 22,
 				"parent" : 0
 			},
 			{
@@ -64,6 +64,10 @@
 				{
 					"backtrace" : 3,
 					"path" : "D:/Github/Graphics-Labs/src/vendor/glad/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Github/Graphics-Labs/src/vendor/glm"
 				}
 			],
 			"language" : "CXX",
@@ -88,6 +92,10 @@
 				{
 					"backtrace" : 3,
 					"path" : "D:/Github/Graphics-Labs/src/vendor/glad/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Github/Graphics-Labs/src/vendor/glm"
 				}
 			],
 			"language" : "C",
@@ -104,7 +112,7 @@
 			"id" : "glfw::@31bd9730e6b8c71cc656"
 		}
 	],
-	"id" : "Gfx_lab::@6890427a1f51a3e7e1df",
+	"id" : "gfx_lab::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -129,8 +137,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "Gfx_lab",
-	"nameOnDisk" : "Gfx_lab.exe",
+	"name" : "gfx_lab",
+	"nameOnDisk" : "gfx_lab.exe",
 	"paths" : 
 	{
 		"build" : ".",

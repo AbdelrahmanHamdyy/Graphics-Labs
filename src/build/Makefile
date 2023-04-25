@@ -137,17 +137,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Gfx_lab
+# Target rules for targets named gfx_lab
 
 # Build rule for target.
-Gfx_lab: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Gfx_lab
-.PHONY : Gfx_lab
+gfx_lab: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gfx_lab
+.PHONY : gfx_lab
 
 # fast build rule for target.
-Gfx_lab/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Gfx_lab.dir/build.make CMakeFiles/Gfx_lab.dir/build
-.PHONY : Gfx_lab/fast
+gfx_lab/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gfx_lab.dir/build.make CMakeFiles/gfx_lab.dir/build
+.PHONY : gfx_lab/fast
 
 #=============================================================================
 # Target rules for targets named glfw
@@ -167,7 +167,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Gfx_lab.dir/build.make CMakeFiles/Gfx_lab.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gfx_lab.dir/build.make CMakeFiles/gfx_lab.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -175,7 +175,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Gfx_lab.dir/build.make CMakeFiles/Gfx_lab.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gfx_lab.dir/build.make CMakeFiles/gfx_lab.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -183,7 +183,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Gfx_lab.dir/build.make CMakeFiles/Gfx_lab.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gfx_lab.dir/build.make CMakeFiles/gfx_lab.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 vendor/glad/src/gl.obj: vendor/glad/src/gl.c.obj
@@ -191,7 +191,7 @@ vendor/glad/src/gl.obj: vendor/glad/src/gl.c.obj
 
 # target to build an object file
 vendor/glad/src/gl.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Gfx_lab.dir/build.make CMakeFiles/Gfx_lab.dir/vendor/glad/src/gl.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gfx_lab.dir/build.make CMakeFiles/gfx_lab.dir/vendor/glad/src/gl.c.obj
 .PHONY : vendor/glad/src/gl.c.obj
 
 vendor/glad/src/gl.i: vendor/glad/src/gl.c.i
@@ -199,7 +199,7 @@ vendor/glad/src/gl.i: vendor/glad/src/gl.c.i
 
 # target to preprocess a source file
 vendor/glad/src/gl.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Gfx_lab.dir/build.make CMakeFiles/Gfx_lab.dir/vendor/glad/src/gl.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gfx_lab.dir/build.make CMakeFiles/gfx_lab.dir/vendor/glad/src/gl.c.i
 .PHONY : vendor/glad/src/gl.c.i
 
 vendor/glad/src/gl.s: vendor/glad/src/gl.c.s
@@ -207,7 +207,7 @@ vendor/glad/src/gl.s: vendor/glad/src/gl.c.s
 
 # target to generate assembly for a file
 vendor/glad/src/gl.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Gfx_lab.dir/build.make CMakeFiles/Gfx_lab.dir/vendor/glad/src/gl.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gfx_lab.dir/build.make CMakeFiles/gfx_lab.dir/vendor/glad/src/gl.c.s
 .PHONY : vendor/glad/src/gl.c.s
 
 # Help Target
@@ -220,7 +220,7 @@ help:
 	@echo "... package"
 	@echo "... package_source"
 	@echo "... rebuild_cache"
-	@echo "... Gfx_lab"
+	@echo "... gfx_lab"
 	@echo "... glfw"
 	@echo "... main.obj"
 	@echo "... main.i"

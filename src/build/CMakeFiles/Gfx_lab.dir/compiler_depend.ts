@@ -1,2 +1,2 @@
 # CMAKE generated file: DO NOT EDIT!
-# Timestamp file for compiler generated dependencies management for Gfx_lab.
+# Timestamp file for compiler generated dependencies management for gfx_lab.

@@ -1,4 +1,4 @@
-CMakeFiles/Gfx_lab.dir/vendor/glad/src/gl.c.obj: \
+CMakeFiles/gfx_lab.dir/vendor/glad/src/gl.c.obj: \
  D:/Github/Graphics-Labs/src/vendor/glad/src/gl.c \
  c:\mingw\x86_64-w64-mingw32\include\stdio.h \
  c:\mingw\x86_64-w64-mingw32\include\corecrt_stdio_config.h \

@@ -5,13 +5,13 @@
 # compile CXX with C:/MinGW/bin/g++.exe
 C_DEFINES = 
 
-C_INCLUDES = @CMakeFiles/Gfx_lab.dir/includes_C.rsp
+C_INCLUDES = @CMakeFiles/gfx_lab.dir/includes_C.rsp
 
 C_FLAGS = -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = @CMakeFiles/Gfx_lab.dir/includes_CXX.rsp
+CXX_INCLUDES = @CMakeFiles/gfx_lab.dir/includes_CXX.rsp
 
 CXX_FLAGS = -g
 

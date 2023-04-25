@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/Github/Graphics-Labs/src/vendor/glad/src/gl.c" "CMakeFiles/Gfx_lab.dir/vendor/glad/src/gl.c.obj" "gcc" "CMakeFiles/Gfx_lab.dir/vendor/glad/src/gl.c.obj.d"
-  "D:/Github/Graphics-Labs/src/main.cpp" "CMakeFiles/Gfx_lab.dir/main.cpp.obj" "gcc" "CMakeFiles/Gfx_lab.dir/main.cpp.obj.d"
+  "D:/Github/Graphics-Labs/src/vendor/glad/src/gl.c" "CMakeFiles/gfx_lab.dir/vendor/glad/src/gl.c.obj" "gcc" "CMakeFiles/gfx_lab.dir/vendor/glad/src/gl.c.obj.d"
+  "D:/Github/Graphics-Labs/src/main.cpp" "CMakeFiles/gfx_lab.dir/main.cpp.obj" "gcc" "CMakeFiles/gfx_lab.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

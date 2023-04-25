@@ -1,4 +1,4 @@
-D:/Github/Graphics-Labs/src/build/CMakeFiles/Gfx_lab.dir
+D:/Github/Graphics-Labs/src/build/CMakeFiles/gfx_lab.dir
 D:/Github/Graphics-Labs/src/build/CMakeFiles/package.dir
 D:/Github/Graphics-Labs/src/build/CMakeFiles/package_source.dir
 D:/Github/Graphics-Labs/src/build/CMakeFiles/edit_cache.dir

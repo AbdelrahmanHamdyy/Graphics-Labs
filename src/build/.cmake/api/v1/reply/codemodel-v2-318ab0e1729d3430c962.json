@@ -65,7 +65,7 @@
 					[
 						0
 					],
-					"name" : "Gfx_lab",
+					"name" : "gfx_lab",
 					"targetIndexes" : 
 					[
 						0
@@ -89,9 +89,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "Gfx_lab::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Gfx_lab-Debug-edf533318c4bf4e4742e.json",
-					"name" : "Gfx_lab",
+					"id" : "gfx_lab::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gfx_lab-Debug-d1ad16440d71ca09781a.json",
+					"name" : "gfx_lab",
 					"projectIndex" : 0
 				},
 				{
