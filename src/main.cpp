@@ -115,11 +115,16 @@ int main() {
     glBindVertexArray(0);
 
     GLuint mvp_loc = glGetUniformLocation(program, "MVP");
+    
+    glEnable(GL_DEPTH_TEST);
+    glDepthFunc(GL_LESS);
+    
+    glClearColor(0.0, 0.0, 0.0, 1.0);
+    glClearDepth(1.0f);
 
     while(!glfwWindowShouldClose(window)) {
         float time =  (float)glfwGetTime();
-        glClearColor(0.0, 0.0, 0.0, 1.0);
-        glClear(GL_COLOR_BUFFER_BIT);
+        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
         glUseProgram(program);
         glBindVertexArray(vertex_array);
@@ -130,13 +135,14 @@ int main() {
             glm::vec3(0.0f, 0.0f, 0.0f),
             glm::vec3(0.0f, 1.0f, 0.0f)
         );
-        glm::mat4 M = glm::mat4(1.0f);
+        for (int i = -2; i <= 2; i++) {
+            glm::mat4 M = glm::translate(glm::mat4(1.0f), glm::vec3(0.0f, 0.0f, (float)i));
 
-        glm::mat4 MVP = P * V * M;
+            glm::mat4 MVP = P * V * M;
 
-        glUniformMatrix4fv(mvp_loc, 1, GL_FALSE, &MVP[0][0]);
-        glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_SHORT, (void*)0);
-
+            glUniformMatrix4fv(mvp_loc, 1, GL_FALSE, &MVP[0][0]);
+            glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_SHORT, (void*)0);
+        }
         glfwSwapBuffers(window);
         glfwPollEvents();
     }

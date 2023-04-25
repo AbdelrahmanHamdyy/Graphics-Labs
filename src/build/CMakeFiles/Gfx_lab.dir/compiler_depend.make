@@ -308,7 +308,19 @@ CMakeFiles/gfx_lab.dir/main.cpp.obj: D:/Github/Graphics-Labs/src/main.cpp \
   D:/Github/Graphics-Labs/src/vendor/glm/glm/detail/type_half.hpp \
   D:/Github/Graphics-Labs/src/vendor/glm/glm/detail/type_half.inl \
   D:/Github/Graphics-Labs/src/vendor/glm/glm/integer.hpp \
-  D:/Github/Graphics-Labs/src/vendor/glm/glm/detail/func_integer.inl
+  D:/Github/Graphics-Labs/src/vendor/glm/glm/detail/func_integer.inl \
+  D:/Github/Graphics-Labs/src/vendor/glm/glm/gtc/matrix_transform.hpp \
+  D:/Github/Graphics-Labs/src/vendor/glm/glm/ext/matrix_projection.hpp \
+  D:/Github/Graphics-Labs/src/vendor/glm/glm/gtc/constants.hpp \
+  D:/Github/Graphics-Labs/src/vendor/glm/glm/ext/scalar_constants.hpp \
+  D:/Github/Graphics-Labs/src/vendor/glm/glm/ext/scalar_constants.inl \
+  D:/Github/Graphics-Labs/src/vendor/glm/glm/gtc/constants.inl \
+  D:/Github/Graphics-Labs/src/vendor/glm/glm/ext/matrix_projection.inl \
+  D:/Github/Graphics-Labs/src/vendor/glm/glm/ext/matrix_clip_space.hpp \
+  D:/Github/Graphics-Labs/src/vendor/glm/glm/ext/matrix_clip_space.inl \
+  D:/Github/Graphics-Labs/src/vendor/glm/glm/ext/matrix_transform.hpp \
+  D:/Github/Graphics-Labs/src/vendor/glm/glm/ext/matrix_transform.inl \
+  D:/Github/Graphics-Labs/src/vendor/glm/glm/gtc/matrix_transform.inl
 
 CMakeFiles/gfx_lab.dir/vendor/glad/src/gl.c.obj: D:/Github/Graphics-Labs/src/vendor/glad/src/gl.c \
   C:/MinGW/x86_64-w64-mingw32/include/stdio.h \
@@ -598,6 +610,8 @@ D:/Github/Graphics-Labs/src/vendor/glm/glm/ext/vector_float3.hpp:
 
 C:/MinGW/include/c++/11.2.0/ext/new_allocator.h:
 
+D:/Github/Graphics-Labs/src/vendor/glm/glm/ext/matrix_transform.inl:
+
 C:/MinGW/include/c++/11.2.0/bits/ostream_insert.h:
 
 D:/Github/Graphics-Labs/src/vendor/glm/glm/ext/matrix_float4x4_precision.hpp:
@@ -611,6 +625,8 @@ C:/MinGW/include/c++/11.2.0/bits/stl_function.h:
 C:/MinGW/include/c++/11.2.0/backward/binders.h:
 
 C:/MinGW/include/c++/11.2.0/initializer_list:
+
+D:/Github/Graphics-Labs/src/vendor/glm/glm/ext/matrix_transform.hpp:
 
 C:/MinGW/include/c++/11.2.0/ext/alloc_traits.h:
 
@@ -780,6 +796,10 @@ D:/Github/Graphics-Labs/src/vendor/glm/glm/ext/vector_float2.hpp:
 
 D:/Github/Graphics-Labs/src/vendor/glm/glm/ext/vector_float2_precision.hpp:
 
+D:/Github/Graphics-Labs/src/vendor/glm/glm/ext/matrix_clip_space.hpp:
+
+D:/Github/Graphics-Labs/src/vendor/glm/glm/gtc/matrix_transform.hpp:
+
 D:/Github/Graphics-Labs/src/vendor/glm/glm/ext/vector_int2.hpp:
 
 D:/Github/Graphics-Labs/src/vendor/glm/glm/ext/vector_uint2.hpp:
@@ -924,6 +944,8 @@ D:/Github/Graphics-Labs/src/vendor/glm/glm/detail/type_vec1.hpp:
 
 D:/Github/Graphics-Labs/src/vendor/glm/glm/detail/type_vec1.inl:
 
+D:/Github/Graphics-Labs/src/vendor/glm/glm/ext/scalar_constants.inl:
+
 D:/Github/Graphics-Labs/src/vendor/glm/glm/detail/func_exponential.inl:
 
 D:/Github/Graphics-Labs/src/vendor/glm/glm/vector_relational.hpp:
@@ -945,6 +967,20 @@ D:/Github/Graphics-Labs/src/vendor/glm/glm/detail/func_trigonometric.inl:
 D:/Github/Graphics-Labs/src/vendor/glm/glm/detail/type_half.inl:
 
 D:/Github/Graphics-Labs/src/vendor/glm/glm/detail/func_integer.inl:
+
+D:/Github/Graphics-Labs/src/vendor/glm/glm/ext/matrix_projection.hpp:
+
+D:/Github/Graphics-Labs/src/vendor/glm/glm/gtc/constants.hpp:
+
+D:/Github/Graphics-Labs/src/vendor/glm/glm/ext/scalar_constants.hpp:
+
+D:/Github/Graphics-Labs/src/vendor/glm/glm/gtc/constants.inl:
+
+D:/Github/Graphics-Labs/src/vendor/glm/glm/ext/matrix_projection.inl:
+
+D:/Github/Graphics-Labs/src/vendor/glm/glm/gtc/matrix_transform.inl:
+
+D:/Github/Graphics-Labs/src/vendor/glm/glm/ext/matrix_clip_space.inl:
 
 D:/Github/Graphics-Labs/src/vendor/glad/src/gl.c:
 
