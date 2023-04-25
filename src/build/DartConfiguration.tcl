@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: D:/Github/Graphics-Labs/Lab 1
-BuildDirectory: D:/Github/Graphics-Labs/Lab 1/build
+SourceDirectory: D:/Github/Graphics-Labs/src
+BuildDirectory: D:/Github/Graphics-Labs/src/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -27,7 +27,7 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "D:/Github/Graphics-Labs/Lab 1"
+ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "D:/Github/Graphics-Labs/src"
 MakeCommand: C:/Program\ Files/CMake/bin/cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 
