@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.0)
-project(Gfx_lab VERSION 0.1.0)
+project(gfx_lab VERSION 0.1.0)
 
 set(GLFW_BUILD_DOCS OFF CACHE BOOL "" FORCE)        # Don't build Documentation
 set(GLFW_BUILD_TESTS OFF CACHE BOOL "" FORCE)       # Don't build Tests
@@ -11,11 +11,12 @@ add_subdirectory(vendor/glfw)
 include_directories(
     vendor/glfw/include
     vendor/glad/include
+    vendor/glm
 )
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/bin)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_DEBUG ${PROJECT_SOURCE_DIR}/bin)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEASE ${PROJECT_SOURCE_DIR}/bin)
 
-add_executable(Gfx_lab main.cpp vendor/glad/src/gl.c)
-target_link_libraries(Gfx_lab glfw)
+add_executable(gfx_lab main.cpp vendor/glad/src/gl.c)
+target_link_libraries(gfx_lab glfw)
